@@ -216,3 +216,21 @@ console.log( obj1 === newObj);    // Answer :  true
 
 ````
 `Explanation :` 
+
+## Question - 13 : 
+
+### JavaScript Regular function knowledge
+
+````Js
+
+What is the output ?  
+
+function test(a,b){
+    console.log(a);
+}
+test(10);
+
+// Answer : 10
+
+````
+`Explanation :` 

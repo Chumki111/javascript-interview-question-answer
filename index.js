@@ -63,10 +63,15 @@
 // obj2.address['post office'].one = 'Sholua'
 // console.log(obj1.address['post office'].one)
 
-const obj1 = { a : 1 , b : 2};
-const obj2 = { b : 4 , c: 5}
+// const obj1 = { a : 1 , b : 2};
+// const obj2 = { b : 4 , c: 5}
 
-const newObj = Object.assign(obj1 , obj2);
+// const newObj = Object.assign(obj1 , obj2);
 
-console.log(newObj);
-console.log( obj1 === newObj);
+// console.log(newObj);
+// console.log( obj1 === newObj);
+
+function test(a,b){
+    console.log(a);
+}
+test(10);
