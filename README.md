@@ -249,3 +249,17 @@ console.log(1 === 1)   // Answer : true
 
 ````
 `Explanation :` The `==` equality operator converts the operands if the are not of the same type , then applies strict comparison . The `===` strict quality operator only considers values equal that have the same type .
+
+## Question - 15 : 
+
+### JavaScript Regular function knowledge
+
+````Js
+
+What is the difference between `map()` and `forEach()` methods ?  
+
+`Answer :` The 'map()' method creates a new array with the results of calling provided function on every element in the calling array . 
+
+Whereas, the forEach() method executes a provided function once for each array element.
+
+````
