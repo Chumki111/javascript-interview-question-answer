@@ -27,3 +27,19 @@ console.log(result2);
 // Answer : Promise {' i love javascript'}
 ```
 `Since getValue is an async function and returns a promise due to the use of the async keyword, the return value is a Promise object .`
+
+## Question-3 : 
+```Js
+async function getValue(){
+    return 'i love javascript'
+}
+
+async function getResult(){
+    const result = await getValue();
+    console.log(result);
+}
+getResult();
+
+// Answer : i love javascript
+```
+`If you want to retrieve the value from the Promise, you can use async/await or .then() to handle the resolved value .`
