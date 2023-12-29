@@ -86,3 +86,15 @@ C."number"       D."undefined"
 // Answer : number
 
 ````
+## Question - 8 : 
+
+````Js
+What does the NaN value represent in JavaScript ? 
+
+A."NaN"          B."Not a Number"
+C."number"       D."undefined"
+
+// Answer : B.Not a Number
+
+````
+`Explanation : The NaN value in JavaScript represents 'Not a Number' and is returned when a mathematical operations fails to produce a valid number .`
