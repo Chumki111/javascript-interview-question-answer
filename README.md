@@ -330,7 +330,7 @@ JavaScript : JavaScript is a high-level , versatile , and widely-used programmin
 
 Does `map()` method mutate the original array ?  
 
-`Answer :` No, the `map()` method does not mutate the original array . It returns a new array with the results of calling the provided function on every element in the calling element .  
+`Answer :` No, the `map()` method does not mutate the original array . </br> It returns a new array with the results of calling the provided function on every element in the calling element .  
 
  const roadMaps = ['JavaScript' , 'React' , 'Node.js']
 
