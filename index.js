@@ -93,8 +93,15 @@
 
 // displayArgs(1,2,3,4)
 
-function displayArgs(...args){
-     args.forEach(arg => console.log(arg))
-}
+// function displayArgs(...args){
+//      args.forEach(arg => console.log(arg))
+// }
 
-displayArgs(1,2,3,4)
+// displayArgs(1,2,3,4)
+
+let i = 0;
+
+do{
+    console.log(i);
+    i++;
+} while (i < 3)

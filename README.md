@@ -500,3 +500,25 @@ The rest parameter `(...args in the example)` is generally more modern and flexi
 
  ````
 
+## Question - 27 : 
+
+### How to use `do...while` loop in JavaScript ?
+
+Answer : The `do...while` statement create a loop that executes a block of code once ,before checking if the condition is `true` , then it will repeat the loop as long as the condition is `true`
+
+````Js
+
+let i = 0;
+
+do{
+    console.log(i);
+    i++;
+} while (i < 3)
+
+//output 
+// 0
+// 1
+// 2
+
+ ````
+
