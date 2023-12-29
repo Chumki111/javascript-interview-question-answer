@@ -342,3 +342,36 @@ console.log(roadMaps); // ['JavaScript', 'React', 'Node.js']
 console.log(reNamedRoadMaps); // ['JavaScript Roadmap', 'React Roadmap', 'Node.js Roadmap']
 
  ````
+## Question - 21 : 
+
+### JavaScript Regular knowledge
+
+````Js
+
+Can you merge multiple arrays in JavaScript ?  
+
+`Answer :` Yes , you can marge multiple arrays into one array using `concat()` method , or the spreed operator `...`
+
+concat() : 
+
+The `concat()` method is used to marge two or more arrays . This method does not change the existing arrays , but instead returns a new array . 
+
+const arr1 = [1,2,3];
+const arr2 = [4,5,6];
+
+const arr3 = arr1.concat(arr2);
+console.log(arr3);   // Answer :  [1, 2, 3, 4, 5, 6]
+
+
+
+Spread operator : 
+
+The spread operator `...` is used to expand an iterable object into the list of arguments . 
+ 
+const arr1 = [1,2,3];
+const arr2 = [4,5,6];
+
+const arr3 = [...arr1 , ...arr2];
+console.log(arr3); // Answer :  [1, 2, 3, 4, 5, 6]
+
+ ````
