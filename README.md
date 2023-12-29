@@ -10,4 +10,7 @@ function add(item ,array){
 
 const result1 = add('a',['b','c'])
 console.log(result1);
+
+// Answer : 3
 ```
+`The push method modifies the original array by adding an element to it and returns the updated length of the array after the addition.`
