@@ -375,3 +375,41 @@ const arr3 = [...arr1 , ...arr2];
 console.log(arr3); // Answer :  [1, 2, 3, 4, 5, 6]
 
  ````
+## Question - 22 : 
+
+### Uses of `break` and `continue` statements in JavaScript?
+
+````Js
+
+`Answer :` You can use `break` and `continue` in loops to alter the flow of the loop . 
+
+`break` will stop the loop from continuing .
+`continue` will skip the current iteration and continue the loop .
+
+
+break : 
+
+for (let i = 0; i < 5; i++){
+   if(i === 1){
+    break;   //stop the loop
+   }
+   console.log(` i : ${i}`)        //Answer----> i:0
+}
+
+
+continue : 
+
+for (let i = 0; i< 5; i++){
+    if(i === 1){
+        continue;    // skips the rest of the code in the loop
+    }
+  console.log(`i:${i}`)
+}
+
+// Output:
+// i: 0
+// i: 2
+// i: 3
+// i: 4
+
+ ````
