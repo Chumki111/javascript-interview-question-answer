@@ -76,14 +76,17 @@ console.log(x)
 ````
 ## Question - 7 : 
 
-`What is the output of the following code `
-````Js
+` `
+````Js 
+
+What is the output of the following code ? 
+
 console .log(typeof NaN)
 
 A."NaN"          B."string"
 C."number"       D."undefined"
 
-// Answer : number
+// Answer : C.number
 
 ````
 ## Question - 8 : 
@@ -121,4 +124,30 @@ console.log(4);
 // Answer : 4,2,3,1
 
 ````
-``
+`Explanation : `
+
+## Question - 10 : 
+
+# JavaScript Object constructor knowledge
+
+````Js
+
+const obj ={
+    x : 10,
+    y : 20
+};
+
+Object.freeze(obj);
+const newObj = obj;
+newObj.x = 50;
+newObj.y = 60;
+
+console.log(newObj.x);
+console.log(newObj.y);
+
+// Answer : 10 , 20
+
+````
+`Explanation : Object.freeze(obj) freezes the object obj. This makes the object's properties immutable, meaning they cannot be added, deleted, or modified . `
+`(const newObj = obj) creates a new constant variable named newObj and assigns it the reference to the existing object obj. This means that both obj and newObj point to the same object in memory.`
+`So the answer is 10 and 20`
