@@ -264,7 +264,7 @@ Whereas, the forEach() method executes a provided function once for each array e
 
 ````
 
-## Question - 15 : 
+## Question - 16 : 
 
 ### JavaScript Regular knowledge
 
@@ -277,5 +277,20 @@ What is the difference between `var`, `let`, and `const` in JavaScript ?
 `let` and `const` are block-scoped .
 
 The key difference between `let` and `const` is that `let` allows for reassignment while `const` creates a read only reference . 
+ 
+````
+## Question - 17 : 
+
+### JavaScript Regular knowledge
+
+````Js
+
+What are the different ways to declare a variable in JavaScript ?  
+
+`Answer :` There are three ways to declare a variable in javaScript 
+
+1. `var`
+2. `let`
+3. `const` 
  
 ````
