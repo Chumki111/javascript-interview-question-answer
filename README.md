@@ -234,3 +234,18 @@ test(10);
 
 ````
 `Explanation :` 
+
+## Question - 14 : 
+
+### JavaScript Regular function knowledge
+
+````Js
+
+What is the difference between `==` and `===` ?  
+
+console.log(1 == '1')   // Answer : true
+console.log(1 === '1')   // Answer : false
+console.log(1 === 1)   // Answer : true
+
+````
+`Explanation :` The `==` equality operator converts the operands if the are not of the same type , then applies strict comparison . The `===` strict quality operator only considers values equal that have the same type .
