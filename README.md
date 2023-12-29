@@ -43,3 +43,15 @@ getResult();
 // Answer : i love javascript
 ```
 `If you want to retrieve the value from the Promise, you can use async/await or .then() to handle the resolved value .`
+
+## Question - 4 : 
+
+````Js
+var x = 6;
+var y = 3;
+
+ ( x < 10 && y > 1)
+
+ // Answer : true
+
+````
