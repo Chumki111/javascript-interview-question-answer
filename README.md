@@ -197,3 +197,24 @@ spread Operator {...obj1} এটা deep clone support করে না। এ�
 `const obj2 = structuredClone(obj1);` এই method টি যেহেতু deep clone support করে তাই এটি Nested object গুলোকেও পুরোপুরি ভাবে কপি করে ফলে । </br>
 জার জন্য এসময় `obj2.address["post office"].one = "Sadar";` করলেও এটি `obj1.address["post office"].one `এর value কে Mutate করতে পারে না। ফলে `obj1.address["post office"].one `লাইনে "mou" প্রিন্ট করবে। </br>
 আর সবার শেষে `structuredClone()` ওই web API টি মুলত গভীরভাবে নেস্টেট পর্জন্ত deeply object clone করার জন্য ব্যবহার হয়। 
+
+## Question - 12 : 
+
+### JavaScript Object constructor Function knowledge
+
+````Js
+
+What is the output ?  
+
+const obj1 = { a : 1 , b : 2};
+const obj2 = { b : 4 , c: 5}
+
+const newObj = Object.assign(obj1 , obj2);
+
+console.log(newObj);
+console.log( obj1 === newObj);
+
+// Answer : {a : 1 , b:4 , c: 5} , true
+
+````
+`Explanation :` 

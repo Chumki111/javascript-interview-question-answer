@@ -46,19 +46,27 @@
 // console.log(newObj.x);
 // console.log(newObj.y);
 
-const obj1 ={
-    name : 'Chumki',
-    address:{
-        country : 'Bangladesh',
-        city : 'Rajshahi',
-        ['post office'] : {
-            one : 'mou'
-        }
-    }
-};
+// const obj1 ={
+//     name : 'Chumki',
+//     address:{
+//         country : 'Bangladesh',
+//         city : 'Rajshahi',
+//         ['post office'] : {
+//             one : 'mou'
+//         }
+//     }
+// };
 
 // const obj2 = structuredClone (obj1)
 
-const obj2 = {...obj1}
-obj2.address['post office'].one = 'Sholua'
-console.log(obj1.address['post office'].one)
+// const obj2 = {...obj1}
+// obj2.address['post office'].one = 'Sholua'
+// console.log(obj1.address['post office'].one)
+
+const obj1 = { a : 1 , b : 2};
+const obj2 = { b : 4 , c: 5}
+
+const newObj = Object.assign(obj1 , obj2);
+
+console.log(newObj);
+console.log( obj1 === newObj);
