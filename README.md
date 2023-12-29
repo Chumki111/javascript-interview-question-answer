@@ -544,5 +544,32 @@ console.log(condition ? true : false);
 
 `Answer` : JavaScript is an interpreted language. This means that the JavaScript code is not compiled before it is executed. Instead, the JavaScript engine interprets the code at runtime.
 
+## Question - 31 : 
 
+### Is Java and JavaScript the same ?
+
+`Answer` : No, Java and JavaScript are distinct languages. Their similarity in name is coincidental, much like car and carpet. Java is often used for backend and mobile apps, while JavaScript powers web interactivity and backend.
+
+## Question - 32 : 
+
+### What is a JavaScript promise ?
+
+`Answer` : A Promise in JavaScript represents a value that may not be available yet but will be at some point. Promises provide a way to handle asynchronous operations, offering methods like `.then()` and `.catch()` to register callbacks for success and failure.
+
+## Question - 33 : 
+
+### What is `preventDefault()` method in JavaScript ?
+
+`Answer` : The `event.preventDefault()` method is used to prevent the default action of an event. For example, when you click on a link, the default action is to navigate to the link's URL. But, if you want to prevent the navigation, you can use `event.preventDefault()` method.
+
+````Js
+
+const link = document.querySelector('a');
+
+link.addEventListener('click', (event) => {
+  event.preventDefault();
+  console.log('Clicked on link!');
+});
+
+ ````
 
