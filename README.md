@@ -55,3 +55,22 @@ var y = 3;
  // Answer : true
 
 ````
+
+## Question - 5 : 
+
+````Js
+var x = 2 + 2 - '2';
+console.log(x)
+
+// Answer : 2
+
+````
+## Question - 6 : 
+
+````Js
+var x = "2" + "2" - "2;
+console.log(x)
+
+// Answer : 20
+
+````
