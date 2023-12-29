@@ -74,3 +74,15 @@ console.log(x)
 // Answer : 20
 
 ````
+## Question - 7 : 
+
+`What is the output of the following code `
+````Js
+console .log(typeof NaN)
+
+A."NaN"          B."string"
+C."number"       D."undefined"
+
+// Answer : number
+
+````
