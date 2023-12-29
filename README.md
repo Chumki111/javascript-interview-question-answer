@@ -490,4 +490,13 @@ displayArgs(1,2,3,4);    // Answer : 1,2,3,4
 The rest parameter `(...args in the example)` is generally more modern and flexible , it provides an actual array , unlike the array-like `arguments` object . 
 
  ````
+## Question - 26 : 
+
+### How to get viewport dimensions in JavaScript?
+
+````Js
+
+`Answer :` You can see `window.innerWidth` and `window.innerHeight` to get the viewport dimensions .
+
+ ````
 
