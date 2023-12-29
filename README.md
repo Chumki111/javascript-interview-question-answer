@@ -572,4 +572,25 @@ link.addEventListener('click', (event) => {
 });
 
  ````
+## Question - 34 : 
+
+### What is the output of the flowing code?
+
+````Js
+
+console.log(2**3);
+
+A.5        B.6
+C.8        D.9
+
+//Answer : C.8
+
+console.log(2*3);
+
+A.5        B.6
+C.8        D.9
+
+//Answer : B.6
+
+ ````
 

@@ -99,9 +99,11 @@
 
 // displayArgs(1,2,3,4)
 
-let i = 0;
+// let i = 0;
 
-do{
-    console.log(i);
-    i++;
-} while (i < 3)
+// do{
+//     console.log(i);
+//     i++;
+// } while (i < 3)
+
+console.log(2*3);
