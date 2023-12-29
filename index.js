@@ -33,15 +33,32 @@
 
 // console.log(4);
 
-const obj ={
-    x : 10,
-    y : 20
+// const obj ={
+//     x : 10,
+//     y : 20
+// };
+
+// Object.freeze(obj);
+// const newObj = obj;
+// newObj.x = 50;
+// newObj.y = 60;
+
+// console.log(newObj.x);
+// console.log(newObj.y);
+
+const obj1 ={
+    name : 'Chumki',
+    address:{
+        country : 'Bangladesh',
+        city : 'Rajshahi',
+        ['post office'] : {
+            one : 'mou'
+        }
+    }
 };
 
-Object.freeze(obj);
-const newObj = obj;
-newObj.x = 50;
-newObj.y = 60;
+// const obj2 = structuredClone (obj1)
 
-console.log(newObj.x);
-console.log(newObj.y);
+const obj2 = {...obj1}
+obj2.address['post office'].one = 'Sholua'
+console.log(obj1.address['post office'].one)
