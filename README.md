@@ -413,3 +413,14 @@ for (let i = 0; i< 5; i++){
 // i: 4
 
  ````
+## Question - 23 : 
+
+### How to define multiline strings in JavaScript ?
+
+````Js
+
+`Answer :` 
+
+In order to define multiline strings in JavaScript, you need to use template literals. Template literals are enclosed by the backtick (` `) character instead of double or single quotes. Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (`${expression}`).
+
+ ````
