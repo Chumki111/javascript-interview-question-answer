@@ -148,6 +148,6 @@ console.log(newObj.y);
 // Answer : 10 , 20
 
 ````
-`Explanation : Object.freeze(obj) freezes the object obj. This makes the object's properties immutable, meaning they cannot be added, deleted, or modified . `
-`(const newObj = obj) creates a new constant variable named newObj and assigns it the reference to the existing object obj. This means that both obj and newObj point to the same object in memory.`
+`Explanation : Object.freeze(obj) freezes the object obj. This makes the object's properties immutable, meaning they cannot be added, deleted, or modified . `</br>
+`(const newObj = obj) creates a new constant variable named newObj and assigns it the reference to the existing object obj. This means that both obj and newObj point to the same object in memory.` </br>
 `So the answer is 10 and 20`
