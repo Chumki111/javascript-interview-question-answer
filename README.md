@@ -98,3 +98,27 @@ C."number"       D."undefined"
 
 ````
 `Explanation : The NaN value in JavaScript represents 'Not a Number' and is returned when a mathematical operations fails to produce a valid number .`
+
+## Question - 9 : 
+
+````Js
+What is the output ? 
+
+setTimeout(() =>{
+console.log(1);
+},0)
+
+queueMicrotask(() =>{
+    console.log(2);
+})
+
+Promise.resolve().then(()=>{
+    console.log(3);
+})
+
+console.log(4);
+
+// Answer : 4,2,3,1
+
+````
+``
