@@ -76,11 +76,25 @@
 // }
 // test(10);
 
-const roadMaps = ['JavaScript' , 'React' , 'Node.js']
+// const roadMaps = ['JavaScript' , 'React' , 'Node.js']
 
-const reNamedRoadMaps  = roadMaps.map((roadmap) => {
-    return `${roadmap} Roadmap`;
-})
+// const reNamedRoadMaps  = roadMaps.map((roadmap) => {
+//     return `${roadmap} Roadmap`;
+// })
 
-console.log(roadMaps); // ['JavaScript', 'React', 'Node.js']
-console.log(reNamedRoadMaps); // ['JavaScript Roadmap', 'React Roadmap', 'Node.js Roadmap']
+// console.log(roadMaps); // ['JavaScript', 'React', 'Node.js']
+// console.log(reNamedRoadMaps); // ['JavaScript Roadmap', 'React Roadmap', 'Node.js Roadmap']
+
+// function displayArgs (){
+//     for (let i = 0; i <arguments.length; i++){
+//         console.log(arguments[i]);
+//     }
+// }
+
+// displayArgs(1,2,3,4)
+
+function displayArgs(...args){
+     args.forEach(arg => console.log(arg))
+}
+
+displayArgs(1,2,3,4)
