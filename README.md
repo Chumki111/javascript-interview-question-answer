@@ -263,3 +263,19 @@ What is the difference between `map()` and `forEach()` methods ?
 Whereas, the forEach() method executes a provided function once for each array element.
 
 ````
+
+## Question - 15 : 
+
+### JavaScript Regular knowledge
+
+````Js
+
+What is the difference between `var`, `let`, and `const` in JavaScript ?  
+
+`Answer :` In JavaScript , `var` is function-scoped and was traditionally used to declare variables .
+
+`let` and `const` are block-scoped .
+
+The key difference between `let` and `const` is that `let` allows for reassignment while `const` creates a read only reference . 
+ 
+````
