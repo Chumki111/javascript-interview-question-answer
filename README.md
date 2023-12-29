@@ -294,3 +294,51 @@ What are the different ways to declare a variable in JavaScript ?
 3. `const` 
  
 ````
+## Question - 18 : 
+
+### JavaScript Regular knowledge
+
+````Js
+
+What is the difference between `null` and `undefined`? ?  
+
+`Answer :` 
+
+null : The `null` is an assignment value . It can be assigned to a variable as a representation of no value . 
+
+undefined : The `undefined` is a primitive value that represents the absence of a value , or a variable that has not been assigned value . 
+
+ ````
+## Question - 19 : 
+
+### JavaScript Regular knowledge
+
+````Js
+
+What is JavaScript ?  
+
+`Answer :` 
+
+JavaScript : JavaScript is a high-level , versatile , and widely-used programming language primarily known for its role in web development . It enables interactive and dynamic behavior on websites . 
+
+ ````
+## Question - 20 : 
+
+### JavaScript Regular knowledge
+
+````Js
+
+Does `map()` method mutate the original array ?  
+
+`Answer :` No, the `map()` method does not mutate the original array . It returns a new array with the results of calling the provided function on every element in the calling element .  
+
+ const roadMaps = ['JavaScript' , 'React' , 'Node.js']
+
+const reNamedRoadMaps  = roadMaps.map((roadmap) => {
+    return `${roadmap} Roadmap`;
+})
+
+console.log(roadMaps); // ['JavaScript', 'React', 'Node.js']
+console.log(reNamedRoadMaps); // ['JavaScript Roadmap', 'React Roadmap', 'Node.js Roadmap']
+
+ ````

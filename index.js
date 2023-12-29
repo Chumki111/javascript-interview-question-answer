@@ -71,7 +71,16 @@
 // console.log(newObj);
 // console.log( obj1 === newObj);
 
-function test(a,b){
-    console.log(a);
-}
-test(10);
+// function test(a,b){
+//     console.log(a);
+// }
+// test(10);
+
+const roadMaps = ['JavaScript' , 'React' , 'Node.js']
+
+const reNamedRoadMaps  = roadMaps.map((roadmap) => {
+    return `${roadmap} Roadmap`;
+})
+
+console.log(roadMaps); // ['JavaScript', 'React', 'Node.js']
+console.log(reNamedRoadMaps); // ['JavaScript Roadmap', 'React Roadmap', 'Node.js Roadmap']
