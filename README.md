@@ -657,4 +657,25 @@ const roadmapItems = document.querySelectorAll('.roadmap-item');
  ````
 ## Question - 37 :
 
+### What is difference between `map()` and `reduce()` methods ? 
+
+### `map()` :
+
+The `map()` method creates a new array with the results of calling a provided function on every element in the calling way . 
+
+### `reduce()` :
+
+The `reduce()` method executes a reducer function ( that you provide ) on each element of an array , resulting in a single output value .
+
 ## Question - 38 :
+
+### Is JavaScript a compiled or interpreted language ?
+
+`Answer` : JavaScript is an interpreted language . This means that the JavaScript code is not compiled before it is executed .  Instead the JavaScript engine interprets the code at the runtime . 
+
+## Question - 39:
+
+### What are the Logical Operators in JavaScript ?
+
+`Answer` : There are three logical operators in JavaScript . `||`(OR),`&&`(AND),`!`(NOT) . They can be used with boolean values , or with non-boolean values . 
+
