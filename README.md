@@ -572,6 +572,7 @@ link.addEventListener('click', (event) => {
 });
 
  ````
+
 ## Question - 34 : 
 
 ### What is the output of the flowing code?
@@ -594,3 +595,37 @@ C.8        D.9
 
  ````
 
+## Question - 35 :
+
+### Asynchronous VS Synchronous code ----->
+
+`Answer` : The difference between Asynchronous ans Synchronous code is that Asynchronous code does not block the execution of the program while Synchronous code does . 
+
+#### Asynchronous code : 
+
+Asynchronous code is executed in the background and it does not block the execution of the program . It is usually used to perform tasks that take a long time to complete , such as network requests .
+
+````Js
+
+console.log('before');
+
+setTimeOut(() =>{
+    console.log('hello');
+},1000);
+
+console.log('after')
+
+ ````
+#### Asynchronous code : 
+
+Synchronous code is executed in sequence and it blocks the execution of the program until it is completed . If a task takes a long time to complete , everything else waits . 
+
+````Js
+
+console.log('before');
+
+for (let i = 0; i < 1000000000; i++) {}
+
+console.log('After');
+
+ ````

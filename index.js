@@ -107,3 +107,11 @@
 // } while (i < 3)
 
 console.log(2*3);
+
+console.log('before');
+
+setTimeOut(() =>{
+    console.log('hello');
+},1000);
+
+console.log('after')
