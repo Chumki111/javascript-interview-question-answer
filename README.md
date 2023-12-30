@@ -629,3 +629,29 @@ for (let i = 0; i < 1000000000; i++) {}
 console.log('After');
 
  ````
+## Question - 36 :
+
+### How to select DOM elements using `querySelector()` and `querySelectorAll()`? 
+
+`Answer` : For selecting elements in the DOM, the `querySelector` and `querySelectorAll` are the most commonly used . They are both methods of the `document` object , and they both accept a CSS selector as an argument . 
+
+#### querySelector
+
+The `querySelector` method returns the first element that matches the specified selector . If no matches are found , its return `null` .
+
+
+````Js
+
+const roadmapWrapper = document.querySelector('.roadmap-wrapper');
+const roadmapTitle = document.querySelector('#roadmap-title');
+
+ ````
+#### querySelectorAll
+
+The `querySelectorAll` method returns a `NodeList` of all elements that match the specified selector . If no matches are found it returns an empty `NodeList` . 
+
+````Js
+
+const roadmapItems = document.querySelectorAll('.roadmap-item');
+
+ ````
