@@ -652,6 +652,6 @@ The `querySelectorAll` method returns a `NodeList` of all elements that match th
 
 ````Js
 
-const roadmapItems = document.querySelectorAll('.roadmap-item');
+const roadmapItems = document.querySelectorAll('.roadmap-item'); 
 
  ````
