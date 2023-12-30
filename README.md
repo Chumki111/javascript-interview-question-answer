@@ -679,3 +679,59 @@ The `reduce()` method executes a reducer function ( that you provide ) on each e
 
 `Answer` : There are three logical operators in JavaScript . `||`(OR),`&&`(AND),`!`(NOT) . They can be used with boolean values , or with non-boolean values . 
 
+### OR (||) 
+
+The OR operator `||` returns the first truthy value , or the last value if none are truthy . 
+
+
+````Js
+
+console.log('hello'|| 0);        // hello
+console.log(false || 'hello');    // hello
+console.log('hello'|| 'world');    // hello
+
+ ````
+
+ ### AND (&&)
+
+ The and operator (`&&`) aka logical conjunction returns the first falsy value , or tha last value of none are falsy . 
+
+````Js
+
+console.log('hello' && 0); // 0
+console.log(false && 'hello'); // false
+console.log('hello' && 'world'); // world
+
+ ````
+
+  ### NOT (!)
+
+  It simply inverts the boolean value of its operand.
+
+  ````Js
+
+console.log(!true); // false
+console.log(!false); // true
+console.log(!'hello'); // false
+console.log(!0); // true
+
+ ````
+
+ ## Question - 40:
+
+ ### How to use `filter()` method ?
+
+ `Answer` : You can use the `filter()` method to filter an array based on a condition . The `filter()` method creates a new array with all elements that pass the test implemented by the provided function .
+
+  ````Js
+
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const evenNumbers = numbers.filter(number =>{
+    return number % 2 === 0
+})
+
+console.log(numbers);         //[1, 2, 3, 44, 5, 6]
+console.log(eventNumbers);    //[2, 4, 6]
+
+ ````

@@ -106,12 +106,28 @@
 //     i++;
 // } while (i < 3)
 
-console.log(2*3);
+// console.log(2*3);
 
-console.log('before');
+// console.log('before');
 
-setTimeOut(() =>{
-    console.log('hello');
-},1000);
+// setTimeOut(() =>{
+//     console.log('hello');
+// },1000);
 
-console.log('after')
+// console.log('after')
+
+// console.log('hello'|| 0); 
+// console.log(false || 'hello'); 
+// console.log('hello'|| 'world'); 
+// hello
+
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const evenNumbers = numbers.filter(number =>{
+    return number % 2 === 0
+})
+
+console.log(numbers); 
+//[1, 2, 3, 44, 5, 6]
+console.log(evenNumbers);
+//[2, 4, 6]
