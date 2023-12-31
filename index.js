@@ -121,13 +121,24 @@
 // console.log('hello'|| 'world'); 
 // hello
 
-const numbers = [1, 2, 3, 4, 5, 6];
+// const numbers = [1, 2, 3, 4, 5, 6];
 
-const evenNumbers = numbers.filter(number =>{
-    return number % 2 === 0
-})
+// const evenNumbers = numbers.filter(number =>{
+//     return number % 2 === 0
+// })
 
-console.log(numbers); 
+// console.log(numbers); 
 //[1, 2, 3, 44, 5, 6]
-console.log(evenNumbers);
-//[2, 4, 6]
+// console.log(evenNumbers);
+// //[2, 4, 6]
+
+let x = 1;
+
+console.log(x++);         //Answer : 1
+console.log(x);           //Answer : 2
+
+
+// let x = 1;
+
+// console.log(++x);         //Answer : 2
+// console.log(x);
