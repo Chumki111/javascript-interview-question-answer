@@ -818,3 +818,60 @@ let number = () => return 10;
 console.log(number()) ////////  SyntaxError: Unexpected token 'return'
 
  ````
+ ## Question - 43:
+
+````Js
+
+var JavaScript ={
+    name : 'JavaScript',
+    libraries : ['React' ,'Angular', 'Vue'],
+    printLibraries : function(){
+        // console.log(this); //{ name: 'JavaScript',libraries: [ 'React', 'Angular', 'Vue' ],printLibraries: [Function: printLibraries]}
+        this.libraries.forEach(function(a){
+        console.log(`${this.name} loves ${a}`); /// undefined loves React,undefined loves Angular,undefined loves Vue
+        
+        })
+    }
+}
+
+JavaScript.printLibraries();
+
+ ````
+ `this` ka akta variable er moddha rakhle amra output pabo .
+ 
+````Js
+
+var JavaScript ={
+    name : 'JavaScript',
+    libraries : ['React' ,'Angular', 'Vue'],
+    printLibraries : function(){
+       var self = this; 
+        this.libraries.forEach(function(a){
+        console.log(`${self.name} loves ${a}`); /// JavaScript loves React,JavaScript loves Angular,JavaScript loves Vue
+        })
+    }
+}
+
+JavaScript.printLibraries();
+
+ ````
+
+ ### note--->
+
+this k variable na rakha array function er maddome output pate pari --->
+
+
+````Js
+var JavaScript ={
+    name : 'JavaScript',
+    libraries : ['React' ,'Angular', 'Vue'],
+    printLibraries : function(){
+      
+        this.libraries.forEach((a) => console.log(`${this.name} loves ${a}`) /// JavaScript loves React,JavaScript loves Angular,JavaScript loves Vue
+        )
+    }
+}
+
+JavaScript.printLibraries();
+
+ ````
