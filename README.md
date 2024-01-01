@@ -756,11 +756,65 @@ console.log(x);           //Answer : 2
  ### Post-increment 
 
  The pre-increment operator returns the value of a variable and then increases the value by 1 . For example ,
-  ````Js
+
+````Js
 
 let x = 1;
 
 console.log(x++);         //Answer : 1
 console.log(x);           //Answer : 2
+
+ ````
+ ## Question - 42:
+
+ ### Normal function and array function------>
+
+ `Answer` : The main difference between a normal function and an array function lies in how they handle input and output. . 
+
+ ### Normal Function--->
+
+ - takes individual values as input parameters .
+ - outputs a single value (or performs some operation and might return a result )
+ 
+ normal function--->
+
+````Js
+
+function add(a,b){
+    return a+b;
+}
+
+ let result = add(10,5)
+ console.log(result);    //Answer : 15
+
+ ````
+
+ ### array function ------>
+
+ 
+````Js
+let number =(a,b) =>{
+    return a + b ;
+}    
+
+console.log(number(10,5));  // Answer : 15
+
+ ````
+
+ ### note--->
+
+ Akta parameter hole return likhar dorker nai . Seta amnitey return hoia jabe r return likhle kaj korbe na . Mane output aashbe na . 
+
+
+````Js
+let number = () => 10;
+
+console.log(number()) ///// Answer : 10
+
+ ````
+````Js
+let number = () => return 10;
+
+console.log(number()) ////////  SyntaxError: Unexpected token 'return'
 
  ````

@@ -132,13 +132,23 @@
 // console.log(evenNumbers);
 // //[2, 4, 6]
 
-let x = 1;
+// let x = 1;
 
-console.log(x++);         //Answer : 1
-console.log(x);           //Answer : 2
+// console.log(x++);         //Answer : 1
+// console.log(x);           //Answer : 2
 
 
 // let x = 1;
 
 // console.log(++x);         //Answer : 2
 // console.log(x);
+
+
+// function add(a,b){
+//     return a+b;
+// }
+
+// let result = add(10,5)
+// console.log(result);
+//  console.log(add(10,5))
+
