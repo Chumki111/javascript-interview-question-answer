@@ -893,3 +893,42 @@ roadMaps.forEach((roadMap) =>{
 ////////  Output---------->JavaScript,React,Node.js
 
  ````
+ ## Question - 45:
+
+  ### How to use `reduce()` method ?
+ 
+`Answer` : You can use the  `reduce()` method to reduce an array to a single value . The `reduce()` method executes a reducer function ( that you provide ) on each element of the array , resulting in a single output value .
+
+### Syntax---> 
+
+````Js
+array.reduce((accumulator, currentValue) =>{
+ 
+//.......
+
+} , initialValue)
+
+ ````
+### Example---> 
+
+You can use the `reduce()` method to sum all the numbers in an array .
+
+````Js
+
+const numbers = [1, 2, 3, 4, 5, 6]
+
+const sum = numbers.reduce((accumulator, currentValue) =>{
+    return accumulator + currentValue
+} , 0)
+
+console.log(sum);   // Answer : 21
+
+ ````
+
+## Question - 46 : 
+
+### What is a JavaScript promise ?  
+
+`Answer` : A Promise in a JavaScript represents a value that may not be available yet but will be at a some point . Promises provide a way to handle asynchronous operations , offering methods like `then()` and `cach()` to register callbacks for success and failure .  
+
+

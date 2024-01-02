@@ -152,8 +152,16 @@
 // console.log(result);
 //  console.log(add(10,5))
 
-const roadMaps = ['JavaScript', 'React', 'Node.js']
+// const roadMaps = ['JavaScript', 'React', 'Node.js']
 
-roadMaps.forEach((roadMap) =>{
-    console.log(roadMap);
-})
+// roadMaps.forEach((roadMap) =>{
+//     console.log(roadMap);
+// })
+
+const numbers = [1, 2, 3, 4, 5, 6]
+
+const sum = numbers.reduce((accumulator, currentValue) =>{
+    return accumulator + currentValue
+} , 0)
+
+console.log(sum);
