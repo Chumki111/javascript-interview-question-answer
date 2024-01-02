@@ -875,3 +875,21 @@ var JavaScript ={
 JavaScript.printLibraries();
 
  ````
+
+ ## Question - 44:
+
+  ### Does `forEach()` method a new array ?
+ 
+`Answer` : No, The `forEach()` method does not return a new array . it simply calls a provided function on each element in an array .
+
+
+````Js
+const roadMaps = ['JavaScript', 'React', 'Node.js']
+
+roadMaps.forEach((roadMap) =>{
+    console.log(roadMap);
+}) 
+
+////////  Output---------->JavaScript,React,Node.js
+
+ ````

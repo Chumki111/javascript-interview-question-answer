@@ -152,3 +152,8 @@
 // console.log(result);
 //  console.log(add(10,5))
 
+const roadMaps = ['JavaScript', 'React', 'Node.js']
+
+roadMaps.forEach((roadMap) =>{
+    console.log(roadMap);
+})
