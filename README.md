@@ -1029,3 +1029,66 @@ console.log(mapNumbers);
 // Answer : [ 2, 4, 6 ]
 
 ```
+## Question - 53 : 
+
+### slice() 
+
+`Answer` : Returns a shallow copy of a `portion` of an array into a `new array` object selected from start to end ( `end no included` ) . The original array will not be modified .   
+
+```Js
+
+const numbers = [1, 2, 3, 4, 5];
+const sliceNumbers = numbers.slice(0,3);
+console.log(sliceNumbers);
+
+// Answer : [ 1, 2, 3 ]
+
+```
+## Question - 54 : 
+
+### filter() 
+
+`Answer` : Creates a `new` array with all elements that `pass` the test implemented by the provided function .   
+
+```Js
+
+const numbers = [1, 2, 3, 4, 5];
+const eventNumbers = numbers.filter(number => number % 2 === 0);
+console.log(eventNumbers)
+
+// Answer : [ 2, 4 ]
+
+const numbers = [1, 2, 3, 4, 5];
+const oddNumbers = numbers.filter(number => number % 2 !== 0);
+console.log(oddNumbers)
+
+// Answer : [ 1, 3, 5 ]
+
+```
+## Question - 55 : 
+
+### find() 
+
+`Answer` : Returns the value of the `first` element in the array that `satisfies` the provided testing function . Otherwise , undefined returned .    
+
+```Js
+
+const numbers = [1, 2, 3, 4, 5];
+const foundNumbers = numbers.find(number => number < 3);
+console.log(foundNumbers);
+
+// Answer : 4
+
+const numbers = [1, 2, 3, 4, 5];
+const foundNumbers = numbers.find(number => number > 3);
+console.log(foundNumbers);
+
+// Answer : 1
+
+const numbers = [1, 2, 3, 4, 5];
+const foundNumbers = numbers.find(number => number > 5);
+console.log(foundNumbers);
+
+// Answer : undefined
+
+```

@@ -190,6 +190,15 @@
 // numbers.unshift(0,-1);
 // console.log(numbers);
 
-const numbers = [1, 2, 3];
-const mapNumbers = numbers.map(number => number *2)
-console.log(mapNumbers);
+// const numbers = [1, 2, 3];
+// const mapNumbers = numbers.map(number => number *2)
+// console.log(mapNumbers);
+// const numbers = [1, 2, 3, 4, 5];
+// const sliceNumbers = numbers.slice(0,3);
+// console.log(sliceNumbers);
+// const numbers = [1, 2, 3, 4, 5];
+// const eventNumbers = numbers.filter(number => number % 2 === 0);
+// console.log(eventNumbers);
+const numbers = [1, 2, 3, 4, 5];
+const foundNumbers = numbers.find(number => number > 5);
+console.log(foundNumbers);
