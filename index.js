@@ -182,6 +182,14 @@
 // numbers.sort((a,b) => (a-b));
 // console.log(numbers);
 
+// const numbers = [1, 2, 3];
+// const lastNumbers = numbers.pop();
+// console.log(lastNumbers);
+
+// const numbers = [1, 2, 3];
+// numbers.unshift(0,-1);
+// console.log(numbers);
+
 const numbers = [1, 2, 3];
-const lastNumbers = numbers.pop();
-console.log(lastNumbers);
+const mapNumbers = numbers.map(number => number *2)
+console.log(mapNumbers);

@@ -935,7 +935,7 @@ console.log(sum);   // Answer : 21
 
 ### Push() 
 
-`Answer` : Adds one or more elements to the end of an array and returns the new length of the array .  
+`Answer` : Adds one or more elements to the `end` of an array and returns the new length of the array .  
 
 ```Js
 
@@ -946,7 +946,23 @@ console.log(number)
 // Answer : [1, 2, 3, 4, 5]
 
 ```
+
 ## Question - 48 : 
+
+### unshift()
+
+`Answer` : Adds one or more elements to the `begining` of an array and returns the new length of the array .  
+
+```Js
+
+const numbers = [1, 2, 3];
+numbers.unshift(0,-1);
+console.log(numbers);
+
+// Answer : [ 0, -1, 1, 2, 3 ]
+
+```
+## Question - 49 : 
 
 ### includes() 
 
@@ -961,7 +977,7 @@ console.log(includesThree)
 // Answer : true
 
 ```
-## Question - 49 : 
+## Question - 50 : 
 
 ### sort()
 
@@ -983,11 +999,11 @@ console.log(numbers);
 
 ```
 
-## Question - 50 : 
+## Question - 51 : 
 
 ### pop() 
 
-`Answer` : DRemoves the last element from an array and returns that element .  
+`Answer` : Removes the last element from an array and returns that element .  
 
 ```Js
 
@@ -996,5 +1012,20 @@ const lastNumbers = numbers.pop();
 console.log(lastNumbers);
 
 // Answer : 3
+
+```
+## Question - 52 : 
+
+### map() 
+
+`Answer` : Creates a `new` array with the result of calling a provided function on every elemnt in the calling array .  
+
+```Js
+
+const numbers = [1, 2, 3];
+const mapNumbers = numbers.map(number => number *2)
+console.log(mapNumbers);
+
+// Answer : [ 2, 4, 6 ]
 
 ```
