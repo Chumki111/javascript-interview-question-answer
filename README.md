@@ -964,6 +964,21 @@ console.log(numbers);
 ```
 ## Question - 49 : 
 
+### shift()
+
+`Answer` : Removes the first element from an array and returns that element .  
+
+```Js
+
+const numbers = [1, 2, 3];
+const firstNumbers =  numbers.shift();
+console.log(numbers);
+
+// Answer :  1 
+
+```
+## Question - 50 : 
+
 ### includes() 
 
 `Answer` : Ditermines `whether` an array `includes` a certain element , returning true or false as appropriate .  
@@ -977,7 +992,7 @@ console.log(includesThree)
 // Answer : true
 
 ```
-## Question - 50 : 
+## Question - 51 : 
 
 ### sort()
 
@@ -999,7 +1014,7 @@ console.log(numbers);
 
 ```
 
-## Question - 51 : 
+## Question - 52 : 
 
 ### pop() 
 
@@ -1014,7 +1029,7 @@ console.log(lastNumbers);
 // Answer : 3
 
 ```
-## Question - 52 : 
+## Question - 53 : 
 
 ### map() 
 
@@ -1029,7 +1044,7 @@ console.log(mapNumbers);
 // Answer : [ 2, 4, 6 ]
 
 ```
-## Question - 53 : 
+## Question - 54 : 
 
 ### slice() 
 
@@ -1044,7 +1059,7 @@ console.log(sliceNumbers);
 // Answer : [ 1, 2, 3 ]
 
 ```
-## Question - 54 : 
+## Question - 55 : 
 
 ### filter() 
 
@@ -1065,7 +1080,7 @@ console.log(oddNumbers)
 // Answer : [ 1, 3, 5 ]
 
 ```
-## Question - 55 : 
+## Question - 56 : 
 
 ### find() 
 
