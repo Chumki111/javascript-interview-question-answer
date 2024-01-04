@@ -158,10 +158,18 @@
 //     console.log(roadMap);
 // })
 
-const numbers = [1, 2, 3, 4, 5, 6]
+// const numbers = [1, 2, 3, 4, 5, 6]
 
-const sum = numbers.reduce((accumulator, currentValue) =>{
-    return accumulator + currentValue
-} , 0)
+// const sum = numbers.reduce((accumulator, currentValue) =>{
+//     return accumulator + currentValue
+// } , 0)
 
-console.log(sum);
+// console.log(sum);
+
+
+// const number = [1, 2, 3];
+// number.push(4,5);
+// console.log(number)
+const number = [1, 2, 3];
+const includesThree = number.includes(3)
+console.log(includesThree)

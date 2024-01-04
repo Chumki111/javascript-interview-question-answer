@@ -931,4 +931,33 @@ console.log(sum);   // Answer : 21
 
 `Answer` : A Promise in a JavaScript represents a value that may not be available yet but will be at a some point . Promises provide a way to handle asynchronous operations , offering methods like `then()` and `cach()` to register callbacks for success and failure .  
 
+## Question - 47 : 
 
+### Push() 
+
+`Answer` : Adds one or more elements to the end of an array and returns the new length of the array .  
+
+```Js
+
+const number = [1, 2, 3];
+number.push(4,5);
+console.log(number)
+
+// Answer : [1, 2, 3, 4, 5]
+
+```
+## Question - 48 : 
+
+### includes() 
+
+`Answer` : Ditermines `whether` an array `includes` a certain element , returning true or false as appropriate .  
+
+```Js
+
+const number = [1, 2, 3];
+const includesThree = number.includes(3)
+console.log(includesThree)
+
+// Answer : true
+
+```
