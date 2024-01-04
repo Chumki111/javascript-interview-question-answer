@@ -961,3 +961,40 @@ console.log(includesThree)
 // Answer : true
 
 ```
+## Question - 49 : 
+
+### sort()
+
+`Answer` : sorts the elements of an array in place and returns the sorted array . The default sort order is built open converting the elements into strings , then comparing their sequences of UTF-16 code uniques values  .  
+
+```Js
+
+const fruits = ['banana', 'apple', 'orange', 'grape'];
+fruits.sort();
+console.log(fruits);
+// Answer : [ 'apple', 'banana', 'grape', 'orange' ]
+
+
+const numbers = [100, 20, 200, 30];
+numbers.sort((a,b) => (a-b));
+console.log(numbers);
+
+//Answer : [ 20, 30, 100, 200 ]
+
+```
+
+## Question - 50 : 
+
+### pop() 
+
+`Answer` : DRemoves the last element from an array and returns that element .  
+
+```Js
+
+const numbers = [1, 2, 3];
+const lastNumbers = numbers.pop();
+console.log(lastNumbers);
+
+// Answer : 3
+
+```

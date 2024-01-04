@@ -170,6 +170,18 @@
 // const number = [1, 2, 3];
 // number.push(4,5);
 // console.log(number)
-const number = [1, 2, 3];
-const includesThree = number.includes(3)
-console.log(includesThree)
+// const number = [1, 2, 3];
+// const includesThree = number.includes(3)
+// console.log(includesThree)
+
+// const fruits = ['banana', 'apple', 'orange', 'grape'];
+// fruits.sort();
+// console.log(fruits);
+
+// const numbers = [100, 20, 200, 30];
+// numbers.sort((a,b) => (a-b));
+// console.log(numbers);
+
+const numbers = [1, 2, 3];
+const lastNumbers = numbers.pop();
+console.log(lastNumbers);
