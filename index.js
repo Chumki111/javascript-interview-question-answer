@@ -248,7 +248,15 @@ const taxRate = 0.082;
 // const number1 = parseInt(num);
 // console.log(typeof(number1));
 
-console.log(10 ** 5);     /// Answer ----> 100000
+// console.log(10 ** 5);     /// Answer ----> 100000
 
-console.log(10 * 10 * 10 * 10 * 10);    // Answer ----> 100000
-console.log(Math.pow(10, 5));        // Answer ----> 100000
+// console.log(10 * 10 * 10 * 10 * 10);    // Answer ----> 100000
+// console.log(Math.pow(10, 5));  // Answer ----> 100000
+
+
+function remainder(a, b) {
+    return a % b;
+}
+
+// Example usage:
+console.log(remainder(5,5));

@@ -1240,3 +1240,25 @@ console.log(10 * 10 * 10 * 10 * 10);    // Answer ----> 100000
 console.log(Math.pow(10, 5));        // Answer ----> 100000
 
 ```
+## Question - 61 : 
+
+###  remainder ---->
+
+`Answer` :  In JavaScript, the remainder of a division operation can be obtained using the modulus operator `%`. 
+
+```Js
+
+function remainder(a, b) {
+    return a % b;
+}
+
+// Example usage:
+console.log(remainder(1, 3));  // Answer ------> 1
+
+console.log(remainder(3, 4));  // Answer ------> 3
+
+console.log(remainder(-9, 45));  // Answer ------> -9
+
+console.log(remainder(5, 5));  // Answer ------> 0
+
+```
