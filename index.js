@@ -199,6 +199,33 @@
 // const numbers = [1, 2, 3, 4, 5];
 // const eventNumbers = numbers.filter(number => number % 2 === 0);
 // console.log(eventNumbers);
-const numbers = [1, 2, 3, 4, 5];
-const foundNumbers = numbers.find(number => number > 5);
-console.log(foundNumbers);
+// const numbers = [1, 2, 3, 4, 5];
+// const foundNumbers = numbers.find(number => number > 5);
+// console.log(foundNumbers);
+
+// function outPut(number) {
+//     return number / 2 !== 0;
+//   }
+  
+//   function number() {
+//     for (let i = 1; i <= 50; i++) {
+//       if (outPut(i)) {
+//         console.log(i);
+//       }
+//     }
+//   }
+  
+//   number();
+
+// function cubes(a) {
+// 	return a ** 3
+// }
+// const cubes =(a) =>  {
+//  return a ** 3  
+// }
+// console.log(cubes(3));
+  
+function squaed(b) {
+	return b * b
+}
+console.log(squaed(5));

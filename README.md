@@ -1107,3 +1107,92 @@ console.log(foundNumbers);
 // Answer : undefined
 
 ```
+## Question - 57 : 
+
+### Problem Solving
+
+`Answer` : function name number but call korci numbers . So output hobe     
+`ReferenceError: numbers is not defined` .
+
+```Js
+
+function outPut(number) {
+    return number / 2 !== 0;
+  }
+  
+  function number() {
+    for (let i = 1; i <= 50; i++) {
+      if (outPut(i)) {
+        console.log(i);
+      }
+    }
+  }
+  
+  numbers();    // Answer ---> ReferenceError: numbers is not defined
+
+  number();    // Answer ---> 1-50
+
+```
+## Question - 57 : 
+
+### Problem Solving
+
+`Answer` : function return er poriborta retun likha ace .
+
+```Js
+// Normal function-->
+
+function cubes(a) {
+	retun a ** 3  // SyntaxError: Unexpected identifier ( retun )
+}
+
+cubes(3)   // Answer ---> SyntaxError: Unexpected identifier
+
+
+function cubes(a) {
+	retunn a ** 3  
+}
+
+console.log(cubes(3));   // Answer ---> 27
+
+ // Arrow function --->
+
+const cubes =(a) =>  {
+ return a ** 3  
+}
+console.log(cubes(3));  /// Answer : 27
+
+const cubes =(a) =>  {
+  a ** 3  
+}
+console.log(cubes(3));  /// Answer : undefined
+
+```
+## Question - 58 : 
+
+### Correct the Mistakes
+
+`Answer` :  .
+
+```Js
+// Normal function-->
+
+function squaed(b) {
+	return a * a
+}
+console.log(squared(5))  // Answer ------> ReferenceError: squared is not defined
+
+////////////---------------------////////////
+
+function squaed(b) {
+	return a * a
+}
+console.log(squaed(5))// answer -----> ReferenceError: a is not defined
+////////////////-----------------------------------//////////
+
+function squaed(b) {
+	return a * a
+}
+console.log(squaed(5)); // answer -----> 25
+
+```
