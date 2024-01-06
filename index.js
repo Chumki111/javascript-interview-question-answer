@@ -225,7 +225,30 @@
 // }
 // console.log(cubes(3));
   
-function squaed(b) {
-	return b * b
-}
-console.log(squaed(5));
+// function squaed(b) {
+// 	return b * b
+// }
+// console.log(squaed(5));
+
+const price = 26.5;
+const taxRate = 0.082;
+
+// Calculate total after tax to two decimal places
+// const totalPrice = price + (price * taxRate);
+// console.log(totalPrice);     // Answer -----> 28.673000000000002 (number)
+
+// const fixedPrice = parseInt(totalPrice.toFixed(2));
+// console.log(fixedPrice);
+
+// const fixedPrice = totalPrice.toFixed(2);
+// console.log(fixedPrice); 
+
+
+// const num = '32';
+// const number1 = parseInt(num);
+// console.log(typeof(number1));
+
+console.log(10 ** 5);     /// Answer ----> 100000
+
+console.log(10 * 10 * 10 * 10 * 10);    // Answer ----> 100000
+console.log(Math.pow(10, 5));        // Answer ----> 100000

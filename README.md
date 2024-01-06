@@ -1196,3 +1196,47 @@ function squaed(b) {
 console.log(squaed(5)); // answer -----> 25
 
 ```
+
+## Question - 59 : 
+
+###  `toFixed()` and `parseIn()` ----------> 
+
+`Answer` :  The `toFixed()` method in JavaScript is used to format a number as a string, representing that number using a fixed number of digits after the decimal point.  
+
+The `parseIn()`  method in JavaScript is used to format a string as a number . 
+
+```Js
+
+const price = 26.5;
+const taxRate = 0.082;
+
+// Calculate total after tax to two decimal places
+const totalPrice = price + (price * taxRate);
+console.log(totalPrice);     // Answer -----> 28.673000000000002 ( number )
+
+const fixedPrice = totalPrice.toFixed(2);
+console.log(fixedPrice);     // Answer ----> 28.67 ( string )
+
+
+const fixedPrice = parseInt(totalPrice.toFixed(2));
+console.log(fixedPrice);    // Answer ----> 28 ( number )
+
+
+```
+## Question - 60 : 
+
+###  `Math.pow()`
+
+`Answer` :   . 
+
+```Js
+
+
+console.log(10 ** 5);     /// Answer ----> 100000
+
+console.log(10 * 10 * 10 * 10 * 10);    // Answer ----> 100000
+
+
+console.log(Math.pow(10, 5));        // Answer ----> 100000
+
+```
