@@ -230,8 +230,8 @@
 // }
 // console.log(squaed(5));
 
-const price = 26.5;
-const taxRate = 0.082;
+// const price = 26.5;
+// const taxRate = 0.082;
 
 // Calculate total after tax to two decimal places
 // const totalPrice = price + (price * taxRate);
@@ -254,9 +254,26 @@ const taxRate = 0.082;
 // console.log(Math.pow(10, 5));  // Answer ----> 100000
 
 
-function remainder(a, b) {
-    return a % b;
-}
+// function remainder(a, b) {
+//     return a % b;
+// }
 
 // Example usage:
-console.log(remainder(5,5));
+// console.log(remainder(5,5));
+
+// const fruits = ['apple', 'banana','dfdf','zzxc', 'orange', 'grape'];
+// fruits.sort();
+// console.log(fruits);
+
+// const numbers = [10, 4, 3, 28, 24, 13, 1, 2,0, 50,45];
+// numbers.unshift(35);
+// console.log(numbers);
+//Return only numbers in the years array greater than 1950.
+const years = [1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020];
+
+function getYears(years) {
+  return years.filter(year => year > 1950);
+}
+
+const filteredYears = getYears(years);
+console.log(filteredYears); // Output: [1972, 1984, 2020]

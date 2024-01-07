@@ -1191,7 +1191,7 @@ console.log(squaed(5))// answer -----> ReferenceError: a is not defined
 ////////////////-----------------------------------//////////
 
 function squaed(b) {
-	return a * a
+	return b * b
 }
 console.log(squaed(5)); // answer -----> 25
 
@@ -1261,4 +1261,20 @@ console.log(remainder(-9, 45));  // Answer ------> -9
 
 console.log(remainder(5, 5));  // Answer ------> 0
 
+```
+This function `remainder()` takes two parameters a and b and returns the remainder when a is divided by b.
+
+## Question - 62 : 
+
+### Return only numbers in the years array greater than 1950.
+
+```Js
+const years = [1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020];
+
+function getYears(years) {
+  return years.filter(year => year > 1950);
+}
+
+const filteredYears = getYears(years);
+console.log(filteredYears); // Output: [1972, 1984, 2020]
 ```
