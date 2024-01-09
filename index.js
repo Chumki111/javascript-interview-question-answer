@@ -269,11 +269,14 @@
 // numbers.unshift(35);
 // console.log(numbers);
 //Return only numbers in the years array greater than 1950.
-const years = [1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020];
+// const years = [1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020];
 
-function getYears(years) {
-  return years.filter(year => year > 1950);
-}
+// function getYears(years) {
+//   return years.filter(year => year > 1950);
+// }
 
-const filteredYears = getYears(years);
-console.log(filteredYears); // Output: [1972, 1984, 2020]
+// const filteredYears = getYears(years);
+// console.log(filteredYears); // Output: [1972, 1984, 2020]
+
+console.log(a);
+var a= 1;

@@ -1278,3 +1278,12 @@ function getYears(years) {
 const filteredYears = getYears(years);
 console.log(filteredYears); // Output: [1972, 1984, 2020]
 ```
+## Question - 63 : 
+
+### 
+
+```Js
+console.log(a);
+var a= 1;
+// output -------> undefined
+```
