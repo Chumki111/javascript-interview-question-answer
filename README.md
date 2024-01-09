@@ -1283,7 +1283,11 @@ console.log(filteredYears); // Output: [1972, 1984, 2020]
 ### 
 
 ```Js
+
 console.log(a);
 var a= 1;
 // output -------> undefined
+
 ```
+
+## Question - 64 : 
